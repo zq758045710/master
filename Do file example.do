@@ -30,6 +30,8 @@ set more off
 capture log close
 set maxvar  30000
 
+sysuse auto.dta ,clear
+des price
 
 * Load adofiles
 global data "/Users/apple/Dropbox (REAP)/Standardized_Patients_II/Std_Patient_2/Papers/2_TB_Detection/Das et al Lancet ID"		
